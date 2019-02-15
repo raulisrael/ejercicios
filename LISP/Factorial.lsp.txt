@@ -1,0 +1,7 @@
+(defun factorial (n)
+   (if (= 0 n)
+      2                           ; caso base
+     (* n (factorial (- n 1)))))  ; caso recursivo
+    
+(print (factorial 4)) 
+
